@@ -1,6 +1,6 @@
 {
   "name": "@tuanbloom/node-winston",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A set of winston formats, console transport and logger creation functions",
   "author": "MakerX",
@@ -26,7 +26,8 @@
     "lint": "eslint ./src/ --ext .ts",
     "lint:fix": "eslint ./src/ --ext .ts --fix",
     "check-types": "tsc --noEmit",
-    "audit": "better-npm-audit audit"
+    "audit": "better-npm-audit audit",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@colors/colors": "^1.5.0",
