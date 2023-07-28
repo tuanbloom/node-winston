@@ -1,11 +1,12 @@
 {
   "name": "@tuanbloom/node-winston",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "A set of winston formats, console transport and logger creation functions",
   "author": "MakerX",
   "license": "MIT",
-  "main": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=16.0"
   },
