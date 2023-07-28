@@ -1,5 +1,5 @@
 {
-  "name": "@makerx/node-winston",
+  "name": "@tuanbloom/node-winston",
   "version": "1.0.0",
   "private": false,
   "description": "A set of winston formats, console transport and logger creation functions",
@@ -9,18 +9,18 @@
     "node": ">=16.0"
   },
   "bugs": {
-    "url": "https://github.com/MakerXStudio/node-winston/issues"
+    "url": "https://github.com/tuanbloom/node-winston.git/issues"
   },
-  "homepage": "https://github.com/MakerXStudio/node-winston#readme",
+  "homepage": "https://github.com/tuanbloom/node-winston.git#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MakerXStudio/node-winston.git"
+    "url": "git+https://github.com/tuanbloom/node-winston.git"
   },
   "scripts": {
     "build": "run-s build:*",
     "build:0-clean": "rimraf dist coverage",
     "build:1-compile": "tsc -p tsconfig.build.json",
-    "build:2-copy-pkg-json": "npx --yes @makerx/ts-toolkit@latest copy-package-json",
+    "build:2-copy-pkg-json": "npx --yes @tuanbloom/ts-toolkit@latest copy-package-json",
     "build:3-copy-readme": "copyfiles README.md dist",
     "test": "jest --coverage --coverageReporters=text",
     "lint": "eslint ./src/ --ext .ts",
@@ -65,5 +65,8 @@
   },
   "overrides": {
     "semver": "^7.5.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
