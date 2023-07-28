@@ -5,6 +5,7 @@
   "description": "A set of winston formats, console transport and logger creation functions",
   "author": "MakerX",
   "license": "MIT",
+  "main": "dist/index.d.ts",
   "engines": {
     "node": ">=16.0"
   },
