@@ -1,6 +1,6 @@
 {
   "name": "@tuanbloom/node-winston",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "A set of winston formats, console transport and logger creation functions",
   "author": "MakerX",
